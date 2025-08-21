@@ -20,7 +20,9 @@ Preferred communication style: Simple, everyday language.
 - **Express.js** server with TypeScript
 - **RESTful API** design with session and message endpoints
 - **In-memory storage fallback** via MemStorage class for development
-- **Request logging middleware** with response time tracking
+- **Comprehensive API logging system** with dual output structure:
+  - **Raw console/api/** folder: Raw JSON logs mirroring API structure for development analysis
+  - **Organized chat/** folder: Structured session data with topology analysis
 - **Error handling middleware** for centralized error responses
 
 ## Database Design

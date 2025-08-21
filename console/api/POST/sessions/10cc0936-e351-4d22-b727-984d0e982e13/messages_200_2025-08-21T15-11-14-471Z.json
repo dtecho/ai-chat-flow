@@ -1,0 +1,74 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:11:14.464Z",
+    "method": "POST",
+    "url": "/api/sessions/10cc0936-e351-4d22-b727-984d0e982e13/messages",
+    "headers": {
+      "host": "localhost:5000",
+      "user-agent": "curl/8.14.1",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "content-length": "82"
+    },
+    "body": {
+      "content": "Hello! Can you explain what prime factorization is in simple terms?"
+    },
+    "query": {},
+    "params": {
+      "id": "10cc0936-e351-4d22-b727-984d0e982e13"
+    }
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:11:14.464Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "1443",
+      "etag": "W/\"5a3-NlZqk+Oz9h67yWt8czWYaPwQA9U\""
+    },
+    "body": {
+      "userMessage": {
+        "id": "06beaddf-0bfc-4a31-92e3-92aab5dc5adb",
+        "sessionId": "10cc0936-e351-4d22-b727-984d0e982e13",
+        "role": "user",
+        "content": "Hello! Can you explain what prime factorization is in simple terms?",
+        "topologyImpact": "user_input",
+        "metadata": null,
+        "createdAt": "2025-08-21T15:11:11.894Z"
+      },
+      "aiMessage": {
+        "id": "11d5ec28-8119-461a-9add-08a250d094d9",
+        "sessionId": "10cc0936-e351-4d22-b727-984d0e982e13",
+        "role": "assistant",
+        "content": "Of course! Prime factorization is the process of breaking down a number into a product of prime numbers. A prime number, as you might know, is a number greater than 1 that has no divisors other than 1 and itself. \n\nFor example, if we take the number 18, its prime factorization would be 2 × 3 × 3, or 2 × 3². This means that when you multiply these prime numbers together, you get the original number, 18. \n\nPrime factorization is like finding the building blocks of a number, and it can be particularly useful in various areas of mathematics, such as simplifying fractions or finding the greatest common divisor of two numbers. Does this make sense, or would you like to explore more about how it works?",
+        "topologyImpact": "inquiry_branch",
+        "metadata": null,
+        "createdAt": "2025-08-21T15:11:14.463Z"
+      },
+      "topology": {
+        "pattern": "s1={[()]}",
+        "order": 1,
+        "threads": 2,
+        "complexity": "monologue",
+        "primeFactors": [
+          "p1p1"
+        ],
+        "structure": {
+          "procedural": [
+            "()",
+            "()"
+          ],
+          "perspectival": [
+            "()",
+            "()"
+          ],
+          "participatory": "s1"
+        },
+        "nestingDepth": 2
+      }
+    },
+    "duration": 2571
+  },
+  "sessionId": "10cc0936-e351-4d22-b727-984d0e982e13"
+}

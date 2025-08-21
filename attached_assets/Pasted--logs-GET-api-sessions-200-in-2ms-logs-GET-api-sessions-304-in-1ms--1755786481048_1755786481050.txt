@@ -1,0 +1,37 @@
+
+[]  📁 /logs/GET/api/sessions 📌 200 in 2ms :: []
+[]  📁 /logs/GET/api/sessions 🔗 304 in 1ms :: []
+{}  📊🧠 /logs/POST/api/sessions 📌 200 in 2ms :: {"id":"9c1c9b36-1258-4fcd-95d4-b1ec538de9db","…
+[]  📁 /logs/GET/api/sessions 📌 200 in 1ms :: [{"id":"9c1c9b36-1258-4fcd-95d4-b1ec538de9db","…  [{session.[id]},… list
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            📌 200 in 1ms ::  {"id":"<session.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 1ms :: [list{messages}]
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 🔥  404 in 1ms ::  {"id":"<topology.id>","…
+{}      🔄🧠 /logs/POST/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 1156ms :: {"id":"<message.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 1ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 📌 200 in 0ms ::  {"id":"<topology.id>","…
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            📌 200 in 0ms ::  {"id":"<session.id>","…
+[]  📁 /logs/GET/api/sessions 📌 200 in 1ms :: [{"id":"9c1c9b36-1258-4fcd-95d4-b1ec538de9db","…  [{session.[id]},… list
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 🔗 304 in 0ms :: [{message.[id]},… list
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            🔗 304 in 1ms ::  {"id":"<session.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 🔗 304 in 0ms :: [{message.[id]},… list
+{}      🔄🧠 /logs/POST/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 1059ms :: {"id":"<message.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 1ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 📌 200 in 1ms ::  {"id":"<topology.id>","…
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            📌 200 in 1ms ::  {"id":"<session.id>","…
+[]  📁 /logs/GET/api/sessions 📌 200 in 1ms :: [{"id":"9c1c9b36-1258-4fcd-95d4-b1ec538de9db","…  [{session.[id]},… list
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 🔗 304 in 0ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 🔗 304 in 1ms ::  {"id":"<topology.id>","…
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            🔗 304 in 1ms ::  {"id":"<session.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 🔗 304 in 0ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 🔗 304 in 1ms ::  {"id":"<topology.id>","…
+{}      🔄🧠 /logs/POST/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 2926ms :: {"id":"<message.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 📌 200 in 1ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 📌 200 in 0ms ::  {"id":"<topology.id>","…
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            📌 200 in 1ms ::  {"id":"<session.id>","…
+[]  📁 /logs/GET/api/sessions 📌 200 in 0ms :: [{"id":"9c1c9b36-1258-4fcd-95d4-b1ec538de9db","…  [{session.[id]},… list
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 🔗 304 in 0ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 🔗 304 in 1ms ::  {"id":"<topology.id>","…
+{}    🧮 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db            🔗 304 in 0ms ::  {"id":"<session.id>","…
+[]      📁 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/messages 🔗 304 in 1ms :: [{message.[id]},… list
+{}      🧩 /logs/GET/api/sessions/9c1c9b36-1258-4fcd-95d4-b1ec538de9db/topology 🔗 304 in 0ms ::  {"id":"<topology.id>","…
+

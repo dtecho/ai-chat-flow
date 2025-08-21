@@ -1,0 +1,11 @@
+{
+  "id": "e3c2dd7c-c12b-4c18-9d78-ae408c9a4be7",
+  "title": "Second Demo Session",
+  "topologyPattern": "s1={[()]}",
+  "topologyOrder": 1,
+  "threadCount": 1,
+  "messageCount": 0,
+  "isActive": "true",
+  "createdAt": "2025-08-21T15:11:01.184Z",
+  "updatedAt": "2025-08-21T15:11:01.184Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "10cc0936-e351-4d22-b727-984d0e982e13",
+  "title": "Demo Conversation with AI",
+  "topologyPattern": "s1={[()]}",
+  "topologyOrder": 1,
+  "threadCount": 1,
+  "messageCount": 0,
+  "isActive": "true",
+  "createdAt": "2025-08-21T15:11:00.711Z",
+  "updatedAt": "2025-08-21T15:11:00.711Z"
+}

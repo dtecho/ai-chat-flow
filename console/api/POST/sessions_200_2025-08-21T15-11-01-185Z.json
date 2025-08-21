@@ -1,0 +1,41 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:11:01.185Z",
+    "method": "POST",
+    "url": "/api/sessions",
+    "headers": {
+      "host": "localhost:5000",
+      "user-agent": "curl/8.14.1",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "content-length": "32"
+    },
+    "body": {
+      "title": "Second Demo Session"
+    },
+    "query": {},
+    "params": {}
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:11:01.185Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "252",
+      "etag": "W/\"fc-kfKxyKMQbayPUONzXyZz7zHWbv0\""
+    },
+    "body": {
+      "id": "e3c2dd7c-c12b-4c18-9d78-ae408c9a4be7",
+      "title": "Second Demo Session",
+      "topologyPattern": "s1={[()]}",
+      "topologyOrder": 1,
+      "threadCount": 1,
+      "messageCount": 0,
+      "isActive": "true",
+      "createdAt": "2025-08-21T15:11:01.184Z",
+      "updatedAt": "2025-08-21T15:11:01.184Z"
+    },
+    "duration": 2
+  }
+}

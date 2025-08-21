@@ -1,0 +1,21 @@
+{
+  "pattern": "s1={[()]}",
+  "order": 1,
+  "threads": 2,
+  "complexity": "monologue",
+  "primeFactors": [
+    "p1p1"
+  ],
+  "structure": {
+    "procedural": [
+      "()",
+      "()"
+    ],
+    "perspectival": [
+      "()",
+      "()"
+    ],
+    "participatory": "s1"
+  },
+  "nestingDepth": 2
+}

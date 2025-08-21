@@ -1,0 +1,41 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:08:52.266Z",
+    "method": "POST",
+    "url": "/api/sessions",
+    "headers": {
+      "host": "localhost:5000",
+      "user-agent": "curl/8.14.1",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "content-length": "36"
+    },
+    "body": {
+      "title": "Test Session for Logging"
+    },
+    "query": {},
+    "params": {}
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:08:52.266Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "257",
+      "etag": "W/\"101-k5OEPQ+1aqtzzsCcZoi2KNqV2jU\""
+    },
+    "body": {
+      "id": "346e1cac-df45-4651-8ba7-12df54dada87",
+      "title": "Test Session for Logging",
+      "topologyPattern": "s1={[()]}",
+      "topologyOrder": 1,
+      "threadCount": 1,
+      "messageCount": 0,
+      "isActive": "true",
+      "createdAt": "2025-08-21T15:08:52.265Z",
+      "updatedAt": "2025-08-21T15:08:52.265Z"
+    },
+    "duration": 2
+  }
+}

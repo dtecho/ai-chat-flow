@@ -1,0 +1,27 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:08:46.623Z",
+    "method": "GET",
+    "url": "/api/sessions",
+    "headers": {
+      "host": "localhost:5000",
+      "user-agent": "curl/8.14.1",
+      "accept": "*/*"
+    },
+    "body": {},
+    "query": {},
+    "params": {}
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:08:46.623Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "2",
+      "etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+    },
+    "body": [],
+    "duration": 2
+  }
+}

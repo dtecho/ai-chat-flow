@@ -1,0 +1,39 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:12:15.864Z",
+    "method": "GET",
+    "url": "/src/components/ui/toaster.tsx",
+    "headers": {
+      "host": "127.0.0.1:5000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Chromium\";v=\"118\", \"HeadlessChrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+      "origin": "http://127.0.0.1:5000",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.88 Safari/537.36",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "accept": "*/*",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "script",
+      "referer": "http://127.0.0.1:5000/src/App.tsx?v=L7UgR0SrhebCNnPJ_FyWQ",
+      "accept-encoding": "gzip, deflate, br"
+    },
+    "body": {},
+    "query": {},
+    "params": {}
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:12:15.864Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "access-control-allow-origin": "http://127.0.0.1:5000",
+      "vary": "Origin",
+      "content-type": "text/javascript",
+      "cache-control": "no-cache",
+      "etag": "W/\"1290-qK0n1BRaGhN1KJRZ0FwreQToQJs\""
+    },
+    "body": null,
+    "duration": 599
+  }
+}

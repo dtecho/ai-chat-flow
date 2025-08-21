@@ -1,11 +1,13 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+import { createApiLogger } from "./middleware/logger";
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Console logging for development visibility
 app.use((req, res, next) => {
   const start = Date.now();
   const path = req.path;
@@ -37,6 +39,13 @@ app.use((req, res, next) => {
 });
 
 (async () => {
+  // Initialize enhanced API logging with structured file output
+  try {
+    const apiLogger = await createApiLogger();
+    app.use(apiLogger);
+  } catch (error) {
+    console.error('Failed to initialize API logger:', error);
+  }
   const server = await registerRoutes(app);
 
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
