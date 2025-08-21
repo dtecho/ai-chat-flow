@@ -1,0 +1,93 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:18:47.586Z",
+    "method": "POST",
+    "url": "/api/sessions/c682a861-b159-4e1e-9308-5458dd51ea22/messages",
+    "headers": {
+      "host": "82fe6c4b-21d4-494c-82e4-83e7302162c6-00-2pn9dnxjohbtk.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Noi/0.4.0 Chrome/122.0.6261.130 Electron/29.1.5 Safari/537.36",
+      "content-length": "29",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "content-type": "application/json",
+      "origin": "https://82fe6c4b-21d4-494c-82e4-83e7302162c6-00-2pn9dnxjohbtk.riker.replit.dev",
+      "referer": "https://82fe6c4b-21d4-494c-82e4-83e7302162c6-00-2pn9dnxjohbtk.riker.replit.dev/",
+      "sec-ch-ua": "\"Not(A:Brand\";v=\"24\", \"Chromium\";v=\"122\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "x-forwarded-for": "41.76.96.174, 10.81.7.202",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "body": {
+      "content": "hi how are you?"
+    },
+    "query": {},
+    "params": {
+      "id": "c682a861-b159-4e1e-9308-5458dd51ea22"
+    }
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:18:47.586Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "759",
+      "etag": "W/\"2f7-V1XrNDvn6xTXmDl6JLxOfOFXIEE\""
+    },
+    "body": {
+      "userMessage": {
+        "id": "4df44cd9-1aa6-41d6-b61b-ecbd03ee3799",
+        "sessionId": "c682a861-b159-4e1e-9308-5458dd51ea22",
+        "role": "user",
+        "content": "hi how are you?",
+        "topologyImpact": "user_input",
+        "metadata": null,
+        "createdAt": "2025-08-21T15:18:46.073Z"
+      },
+      "aiMessage": {
+        "id": "0c623a31-125c-41f8-ab1d-2003717f7f6c",
+        "sessionId": "c682a861-b159-4e1e-9308-5458dd51ea22",
+        "role": "assistant",
+        "content": "Hello! I'm here and ready to help you. How about you? What's on your mind today?",
+        "topologyImpact": "inquiry_branch",
+        "metadata": null,
+        "createdAt": "2025-08-21T15:18:47.582Z"
+      },
+      "topology": {
+        "pattern": "s1={[()]}",
+        "order": 1,
+        "threads": 2,
+        "complexity": "monologue",
+        "primeFactors": [
+          "p1p1"
+        ],
+        "structure": {
+          "procedural": [
+            "()",
+            "()"
+          ],
+          "perspectival": [
+            "()",
+            "()"
+          ],
+          "participatory": "s1"
+        },
+        "nestingDepth": 2
+      }
+    },
+    "duration": 1513
+  },
+  "sessionId": "c682a861-b159-4e1e-9308-5458dd51ea22"
+}

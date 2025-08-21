@@ -1,0 +1,24 @@
+{
+  "pattern": "s3={[()()()],[((()))]}",
+  "order": 3,
+  "threads": 3,
+  "complexity": "complex_dialogue",
+  "primeFactors": [
+    "p1p1",
+    "p2",
+    "p3"
+  ],
+  "structure": {
+    "procedural": [
+      "()",
+      "()",
+      "()"
+    ],
+    "perspectival": [
+      "()",
+      "()"
+    ],
+    "participatory": "s3"
+  },
+  "nestingDepth": 2
+}

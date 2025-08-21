@@ -1,0 +1,25 @@
+{
+  "sessionId": "c682a861-b159-4e1e-9308-5458dd51ea22",
+  "pattern": "s3={[()()()],[((()))]}",
+  "primeFactors": [
+    "p1p1",
+    "p2",
+    "p3"
+  ],
+  "structure": {
+    "procedural": [
+      "()",
+      "()",
+      "()"
+    ],
+    "perspectival": [
+      "()",
+      "()"
+    ],
+    "participatory": "s3"
+  },
+  "complexity": "complex_dialogue",
+  "nestingDepth": 2,
+  "id": "b786d084-4994-4cc1-808b-e7c2941d86b3",
+  "createdAt": "2025-08-21T15:27:16.473Z"
+}

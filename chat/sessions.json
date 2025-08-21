@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "c682a861-b159-4e1e-9308-5458dd51ea22",
+    "title": "New Session 5:18:31 PM",
+    "topologyPattern": "s3={[()()()],[((()))]}",
+    "topologyOrder": 3,
+    "threadCount": 3,
+    "messageCount": 4,
+    "isActive": "true",
+    "createdAt": "2025-08-21T15:18:31.995Z",
+    "updatedAt": "2025-08-21T15:27:16.473Z"
+  }
+]

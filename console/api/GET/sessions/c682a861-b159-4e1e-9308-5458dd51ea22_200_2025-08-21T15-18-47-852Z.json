@@ -1,0 +1,59 @@
+{
+  "request": {
+    "timestamp": "2025-08-21T15:18:47.845Z",
+    "method": "GET",
+    "url": "/api/sessions/c682a861-b159-4e1e-9308-5458dd51ea22",
+    "headers": {
+      "host": "82fe6c4b-21d4-494c-82e4-83e7302162c6-00-2pn9dnxjohbtk.riker.replit.dev",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Noi/0.4.0 Chrome/122.0.6261.130 Electron/29.1.5 Safari/537.36",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US",
+      "if-none-match": "W/\"ff-GADuCoaPUnzTOL0Fy71Fg5TQifs\"",
+      "referer": "https://82fe6c4b-21d4-494c-82e4-83e7302162c6-00-2pn9dnxjohbtk.riker.replit.dev/",
+      "sec-ch-ua": "\"Not(A:Brand\";v=\"24\", \"Chromium\";v=\"122\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "x-forwarded-for": "41.76.96.174, 10.81.6.133",
+      "x-forwarded-proto": "https",
+      "x-replit-user-bio": "",
+      "x-replit-user-id": "",
+      "x-replit-user-name": "",
+      "x-replit-user-profile-image": "",
+      "x-replit-user-roles": "",
+      "x-replit-user-teams": "",
+      "x-replit-user-url": ""
+    },
+    "body": {},
+    "query": {},
+    "params": {
+      "id": "c682a861-b159-4e1e-9308-5458dd51ea22"
+    }
+  },
+  "response": {
+    "timestamp": "2025-08-21T15:18:47.845Z",
+    "statusCode": 200,
+    "headers": {
+      "x-powered-by": "Express",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "255",
+      "etag": "W/\"ff-nlihizXnWV1pe1hT/cFyKtcX9ys\""
+    },
+    "body": {
+      "id": "c682a861-b159-4e1e-9308-5458dd51ea22",
+      "title": "New Session 5:18:31 PM",
+      "topologyPattern": "s1={[()]}",
+      "topologyOrder": 1,
+      "threadCount": 2,
+      "messageCount": 2,
+      "isActive": "true",
+      "createdAt": "2025-08-21T15:18:31.995Z",
+      "updatedAt": "2025-08-21T15:18:47.583Z"
+    },
+    "duration": 2
+  },
+  "sessionId": "c682a861-b159-4e1e-9308-5458dd51ea22"
+}
